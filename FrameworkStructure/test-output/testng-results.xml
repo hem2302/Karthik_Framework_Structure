@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" total="1" passed="1">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Default suite" duration-ms="7779" started-at="2019-04-07T10:15:48Z" finished-at="2019-04-07T10:15:56Z">
+    <groups>
+    </groups>
+    <test name="Default test" duration-ms="7779" started-at="2019-04-07T10:15:48Z" finished-at="2019-04-07T10:15:56Z">
+      <class name="com.test.login.LoginTest">
+        <test-method status="PASS" signature="setup()[pri:0, instance:com.test.login.LoginTest@34033bd0]" name="setup" is-config="true" duration-ms="6427" started-at="2019-04-07T15:45:48Z" finished-at="2019-04-07T15:45:55Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method status="PASS" signature="validateValidCredential()[pri:0, instance:com.test.login.LoginTest@34033bd0]" name="validateValidCredential" duration-ms="698" started-at="2019-04-07T15:45:55Z" finished-at="2019-04-07T15:45:56Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- validateValidCredential -->
+        <test-method status="PASS" signature="teardown()[pri:0, instance:com.test.login.LoginTest@34033bd0]" name="teardown" is-config="true" duration-ms="633" started-at="2019-04-07T15:45:56Z" finished-at="2019-04-07T15:45:56Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- teardown -->
+      </class> <!-- com.test.login.LoginTest -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>

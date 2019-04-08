@@ -1,0 +1,14 @@
+<suite name="suite">
+    
+    <test name="sample test">
+        
+        <classes>
+            
+            <class name="com.test.login.LoginTest"></class>
+            
+        </classes>
+        
+    </test>
+        
+    
+</suite>
