@@ -21,6 +21,7 @@ public class BaseTest {
 	public static String url;
 	public static String username;
 	public static String password;
+	public static String driverlocation;
 	
 	@BeforeTest
 	public void setup(){
@@ -36,8 +37,9 @@ public class BaseTest {
 	     url=(String) prop.get("URL");
 		 username=(String) prop.get("USERNAME");
 		 password=(String) prop.get("PASSWORD");
+		 driverlocation=(String) prop.get("DRIVERLOCATION");
 		
-		System.setProperty("webdriver.chrome.driver", "drivers\\chromedriver.exe");
+		System.setProperty("webdriver.chrome.driver", driverlocation);
 		driver =new ChromeDriver();
 		driver.get(url);
 		driver.manage().timeouts().implicitlyWait(30, TimeUnit.SECONDS);
